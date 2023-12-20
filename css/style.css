@@ -1,0 +1,358 @@
+body{
+    width:100%
+}
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+    position: fixed;
+    background: rgb(240, 218, 188);
+    top: 0;
+    left:0;
+    height: 70px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+    /* overflow-y: auto; */
+
+}
+.fiori{
+    margin: 0 0 0 40px;
+    font-family: cursive;
+    font-size: 30px;
+    padding: 0 10px;
+    font-weight: 20px;
+    display: inline-block;
+}
+.menu{
+    display: inline-block; 
+    margin: 0 0 0 700px;
+}
+.header{
+    text-decoration: none;
+    color: black;
+    margin: 0 0 0 30px;
+}
+.header2{
+    padding: 15px 40px;
+    background-color: rgb(176, 162, 141);
+}
+.header:hover{
+    color: brown;
+}
+
+@media (min-width: 1024px) {
+    #header{
+        border-radius: 25px 25px 0 0;
+    }
+}
+
+/*--------------------------------------------------------------
+# Order
+--------------------------------------------------------------*/
+.order-container{
+    height: 700px; 
+    background-size: cover;
+}
+.flower{
+    text-align: center;
+    justify-content: center;
+    color: rgb(46, 45, 45);
+    margin-top: 70px;
+}
+h1{
+    padding-top: 300px;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h4{
+    font-size: 20px;
+}
+.shop{
+    text-decoration: none;
+    padding: 15px 50px;
+    color: rgb(46, 45, 45);
+    background-color: rgb(219, 186, 142);
+    font-weight: 100px;
+}
+.social-container{
+    margin-top: 170px;
+    margin-left: 70px;
+}
+.social{
+    text-decoration: none;
+    padding: 0 10px;
+    color: whitesmoke;
+}
+.collect{
+    margin-left: 1000px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+@media (min-width: 1024px) {
+    .order-container {
+      background-attachment: fixed;
+      background-image: fixed;
+    }
+}
+
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+.about{
+    height: 700px;
+    background-color: burlywood;
+}
+.do{
+    text-align: center;
+    justify-content: center;
+}
+h5{
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 70px;
+    color: beige;
+}
+.services{
+    color:rgb(46, 45, 45);
+    padding-top: 40px;
+}
+.card{
+    display: inline-block;
+    width:225px;
+    height:380px;
+    border-radius: 100px 100px 0 0;
+    text-decoration: none; 
+    margin:50px;
+    position: static;
+}
+.custom{
+    width:223px;
+    height:175px;
+    border-radius: 100px 100px 0 0;
+    background-color: burlywood;
+}
+.card-text{
+    padding: 10px;
+}
+.card-title{
+    font-weight: 900;
+    color: rgb(46, 45, 45);
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    border-bottom:1px solid gray;
+    text-decoration: none;
+}
+.card-content{
+    padding: 10px 0 15px;
+    text-decoration: none;
+    color: rgb(46, 45, 45);
+    font-size: 16px;
+}
+.card-footer{
+    text-decoration: none;
+    font-weight: 500;
+}
+.card-footer:hover{
+    color: brown;
+}
+
+/*--------------------------------------------------------------
+# Collection
+--------------------------------------------------------------*/
+.gift{
+    height: 300px;
+    background-color: rgb(231, 230, 230);
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 40px;
+    color: rgb(121, 120, 118);
+    text-align: center;
+    justify-content: center;
+    margin-left:10px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.info{
+    width: 550px;
+    margin-left:220px;
+    color: rgb(121, 120, 118);
+    text-align: center;
+    justify-content: center;
+    font-size: 13px;
+}
+.image{
+    width:400px;
+    height:400px;
+    float: right;
+    top:0;
+    margin-right: 100px;
+    border-radius: 0 0 250px 250px;
+    border: 2px solid rgb(182, 150, 109);
+}
+.go{
+    width:50px;
+    height: 50px;
+    padding:7px 20px;
+    text-decoration: none;
+    background-color: rgb(176, 162, 141);
+    color:black;
+    text-align: center;
+    justify-content: center;
+    margin-left: 440px;
+}
+.go:hover{
+    color: brown;
+}
+.popular{
+    height: 450px;
+    background-color: bisque
+}
+h6{
+    color: rgb(182, 150, 109);
+    text-align: center;
+    margin-left: 400px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+.pop{
+    text-align: center;
+    margin-left: 400px;
+    font-weight: 700;
+    font-size: 35px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(46, 45, 45);
+}
+.dry{
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.dried{
+    height: 200px;
+    justify-content: center;
+    width: 250px;
+    margin-left: 50px;
+    border: 2px solid rgb(182, 150, 109);
+}
+.like{
+    margin-top: 10px;
+    color: rgb(66, 65, 65);
+    font-size: small;
+}
+.like1{
+    margin-left: 165px;
+    
+}
+.like2{
+    margin-left: 115px;
+}
+.like3{
+    margin-left: 115px;
+
+}
+.like4{
+    margin-left: 115px;
+}
+.liked{
+    text-decoration: none;
+    color:rgb(66, 65, 65);
+}
+.liked:hover{
+    color: brown;
+}
+
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact{
+    height: 400px;
+    background-color:rgb(242, 210, 165);
+    border-bottom: 3px solid rgb(66, 65, 65);
+}
+.contacts{  
+    height: 347px;
+    width: 500px;
+    border-radius: 250px 250px 0 0;
+    background-color: rgb(249, 223, 191);
+    justify-content: center;
+    text-align: center;
+    margin-left: 500px;
+
+}
+h3{
+    padding: 40px 40px;
+    text-align: center;
+    color: rgb(66, 65, 65);
+}
+.talk-here{
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+    margin-left: 50px;
+    margin-bottom: 60px;
+}
+.talk{
+    text-decoration: none;
+    color: rgb(66, 65, 65);
+    border-radius: 1px solid red;
+    padding: 15px 30px;
+    background-color: rgb(219, 186, 142);
+}
+.talk:hover{
+    color: brown;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+    height: 150px;
+    background-color:rgb(242, 210, 165);
+  }
+.num{
+    margin: 0 0 0 140px;
+    display: inline-block;
+}
+.foot{
+    margin: 0 0 0 40px;
+}
+.input{
+    margin: 20px 0 0 40px;
+}
+button{
+    background-color: rgb(249, 223, 191);
+}
+
+/*--------------------------------------------------------------
+# Signature
+--------------------------------------------------------------*/
+#Signature{
+    height: 50px;
+    background-color:rgb(219, 186, 142);
+}
+.credits {
+    font-size: 15px;
+    color: rgb(66, 65, 65);
+    text-decoration: none;
+    margin: 0 0 0 40px;
+   
+}
+.credits a{
+    text-decoration: none;
+    color: rgb(66, 65, 65);;
+}
+.credits a:hover{
+    color: brown
+}
+.signature{
+    color: rgb(226, 155, 55);
+    margin: 0 0 0 40px;
+    font-family: cursive;
+    font-size: 20px;
+    display: inline-block;
+}
+#up{
+    margin: 0 0 0 1240px;
+    font-size: 20px;
+}
+
